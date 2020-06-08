@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>M.Vineeth</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <!-- Write your code below -->
+    <div class="header">
+      
+    </div>
+
+    <div class="main">
+      <div class="copy-container">
+        <h2>HTML & CSS <span>BASICS.</span></h1>
+        <h3>Let's see a simple animation</h2>
+      </div>
+      <script>
+		function f1()
+		{
+		var obj=document.getElementById('img');
+		obj.src='on.png';
+		}
+		function f2()
+		{
+		var obj1=document.getElementById('img');
+		obj1.src='off.png';
+		}
+		</script>
+
+      <div class="contents">
+        <h3 class="section-title">Click on the buttons and see the light bulb glow!</h3>
+        <div class="contents-item">
+          
+          <button onclick="f1()" class="button_on">Turn On</button>
+		  <img id="img" src="off.png" style="width:300px">
+		  <button onclick="f2()" class="button_off">Turn Off</button>
+        </div>
+        
+        
+      </div>
+      
+    
+  </body>
+</html>
